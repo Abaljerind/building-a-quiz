@@ -31,3 +31,16 @@ h2 {
 h2 {
   border-bottom: #dfdfe2 solid 4px;
 }
+
+/* The .sr-only text is still visible. There is a common pattern to visually hide text for only screen readers to read. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
