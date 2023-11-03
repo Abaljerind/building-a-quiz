@@ -16,3 +16,9 @@ h1 {
   color: #f1be32;
   font-size: min(5vw, 1.2em);
 }
+
+/* Use the > selector to target the unordered list elements within the nav elements */
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
