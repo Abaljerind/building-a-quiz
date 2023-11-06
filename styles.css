@@ -93,6 +93,22 @@ section {
   padding: 10px 0 0 5px;
 }
 
+.info input {
+  width: 50%;
+  text-align: left;
+}
+
+.info label {
+  width: 10%;
+  min-width: 55px;
+  text-align: right;
+}
+
+.info input,
+.info label {
+  display: inline-block;
+}
+
 .formrow {
   margin-top: 30px;
   padding: 0px 15px;
