@@ -58,6 +58,8 @@ h2 {
 
 h2 {
   border-bottom: #dfdfe2 solid 4px;
+  margin-top: 0;
+  padding-top: 60px;
 }
 
 /* The .sr-only text is still visible. There is a common pattern to visually hide text for only screen readers to read. */
@@ -79,4 +81,10 @@ p::before {
 
 main {
   padding-top: 25px;
+}
+
+section {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto 10px auto;
 }
