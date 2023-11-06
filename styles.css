@@ -71,3 +71,7 @@ h2 {
 p::before {
   content: "Question #";
 }
+
+main {
+  padding-top: 25px;
+}
